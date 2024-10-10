@@ -20,7 +20,7 @@ export default function Home() {
   const [firstPaymentDate, setFirstPaymentDate] = useState("");
   const [countryState, setCountryState] = useState("");
   const [advocateName, setAdvocateName] = useState("");
-  const advSeal = "/images/adv.png";
+  const advSeal = "https://hasanlisbon.github.io/pdf-gen/images/adv.png";
 
   // Reference for the contract HTML
   const contractRef = useRef<HTMLDivElement>(null);
